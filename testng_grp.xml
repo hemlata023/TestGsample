@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+<test thread-count="5" name="ModuleOneTest">
+  <groups>
+<define name = "FunctionalTest">
+	<include name="feature1"/>
+	<include name="feature2"/>
+</define>
+<define name = "SmokeTest">
+	<include name="feature2"/>
+	<include name="feature3"/>
+</define>
+<run>
+	<exclude name = "SmokeTest"/>
+</run>
+</groups>
+    <classes>
+      <class name="testScripts.SampleTwoTest"/>
+       <class name="testScripts.SampleThreeTest"/>
+    </classes>
+  </test> <!-- ModuleOneTest -->
+</suite> <!-- SampleSuite -->
