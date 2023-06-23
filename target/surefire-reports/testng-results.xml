@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-12T14:37:10 IST" name="SampleSuite" finished-at="2023-05-12T14:37:24 IST" duration-ms="14412">
+  <suite started-at="2023-06-21T15:22:28 IST" name="SampleSuite" finished-at="2023-06-21T15:22:42 IST" duration-ms="14880">
     <groups>
     </groups>
-    <test started-at="2023-05-12T14:37:10 IST" name="ModuleOneTest" finished-at="2023-05-12T14:37:24 IST" duration-ms="14412">
+    <test started-at="2023-06-21T15:22:28 IST" name="ModuleOneTest" finished-at="2023-06-21T15:22:42 IST" duration-ms="14880">
       <class name="testScripts.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:10 IST" name="setup" finished-at="2023-05-12T14:37:13 IST" duration-ms="3059" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:28 IST" name="setup" finished-at="2023-06-21T15:22:31 IST" duration-ms="3486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:13 IST" name="validLogin" data-provider="loginData" finished-at="2023-05-12T14:37:16 IST" duration-ms="3070" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:31 IST" name="validLogin" data-provider="loginData" finished-at="2023-06-21T15:22:36 IST" duration-ms="4430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:16 IST" name="teardown" finished-at="2023-05-12T14:37:16 IST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:36 IST" name="teardown" finished-at="2023-06-21T15:22:36 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:16 IST" name="setup" finished-at="2023-05-12T14:37:18 IST" duration-ms="1689" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:36 IST" name="setup" finished-at="2023-06-21T15:22:37 IST" duration-ms="999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:18 IST" name="validLogin" data-provider="loginData" finished-at="2023-05-12T14:37:20 IST" duration-ms="2558" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:37 IST" name="validLogin" data-provider="loginData" finished-at="2023-06-21T15:22:39 IST" duration-ms="2514" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:20 IST" name="teardown" finished-at="2023-05-12T14:37:20 IST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:39 IST" name="teardown" finished-at="2023-06-21T15:22:39 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:20 IST" name="setup" finished-at="2023-05-12T14:37:22 IST" duration-ms="1328" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:39 IST" name="setup" finished-at="2023-06-21T15:22:40 IST" duration-ms="944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:22 IST" name="validLogin" data-provider="loginData" finished-at="2023-05-12T14:37:24 IST" duration-ms="2375" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:40 IST" name="validLogin" data-provider="loginData" finished-at="2023-06-21T15:22:42 IST" duration-ms="2254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@188715b5]" started-at="2023-05-12T14:37:24 IST" name="teardown" finished-at="2023-05-12T14:37:24 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:42 IST" name="teardown" finished-at="2023-06-21T15:22:42 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

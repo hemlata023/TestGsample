@@ -3,21 +3,21 @@ package testScripts;
 import org.testng.annotations.Test;
 
 public class SampleThreeTest {
-	@Test(groups = "feature2")
+	@Test(groups="featureOne")
 	  public void testOne() {
-		  System.out.println("Test12 in SampleThree");
+		  System.out.println("Test31 in SampleThree");
 	  }
 	  @Test
 	  public void testTwo() {
-		  System.out.println("TestTwo in SampleThree");
+		  System.out.println("Test32 in SampleThree");
 	  }
-	  @Test(groups = "feature1")
+	  @Test
 	  public void testThree() {
-		  System.out.println("Test3 in SampleThree");
+		  System.out.println("Test33 in SampleThree");
 	  }
-	  @Test(groups = "feature3")
+	  @Test
 	  public void testFour() {
-		  System.out.println("Test22 in SampleThree");
+		  System.out.println("Test34 in SampleThree");
 	  }
 
 }
