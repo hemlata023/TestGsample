@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-13T11:12:23 IST" name="Default suite" finished-at="2023-06-13T11:12:30 IST" duration-ms="6725">
+  <suite started-at="2023-12-13T13:32:09 IST" name="Default suite" finished-at="2023-12-13T13:32:15 IST" duration-ms="6121">
     <groups>
     </groups>
-    <test started-at="2023-06-13T11:12:23 IST" name="Default test" finished-at="2023-06-13T11:12:30 IST" duration-ms="6725">
-      <class name="testScripts.CDPTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@654f0d9c]" started-at="2023-06-13T11:12:23 IST" name="setup" finished-at="2023-06-13T11:12:25 IST" duration-ms="1913" status="PASS">
+    <test started-at="2023-12-13T13:32:09 IST" name="Default test" finished-at="2023-12-13T13:32:15 IST" duration-ms="6121">
+      <class name="remoteScripts.RemoteDriverSample">
+        <test-method signature="sampleTest()[pri:0, instance:remoteScripts.RemoteDriverSample@34b7ac2f]" started-at="2023-12-13T13:32:09 IST" name="sampleTest" finished-at="2023-12-13T13:32:15 IST" duration-ms="6087" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="geoLocTest()[pri:0, instance:testScripts.CDPTest@654f0d9c]" started-at="2023-06-13T11:12:25 IST" name="geoLocTest" finished-at="2023-06-13T11:12:30 IST" duration-ms="4787" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geoLocTest -->
-      </class> <!-- testScripts.CDPTest -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- remoteScripts.RemoteDriverSample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

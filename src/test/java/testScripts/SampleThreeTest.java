@@ -3,7 +3,7 @@ package testScripts;
 import org.testng.annotations.Test;
 
 public class SampleThreeTest {
-	@Test(groups="featureOne")
+	@Test
 	  public void testOne() {
 		  System.out.println("Test31 in SampleThree");
 	  }

@@ -19,9 +19,10 @@ public class RemoteDriverTest {
   @Test
   public void test() throws MalformedURLException {
 	  ChromeOptions options = new ChromeOptions();
-	  
+	  options.addArguments("--remote-allow-origins=*");
 	  options.setCapability(CapabilityType.PLATFORM_NAME, Platform.WINDOWS);
-	  String strHub = "http://192.168.1.7:4444";
+//	  options.setCapability(CapabilityType.BROWSER_VERSION, "115");
+	  String strHub = "http://192.168.1.5:4444";
 	  driver = new RemoteWebDriver(new URL(strHub), options);
 	  
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -35,3 +36,5 @@ public class RemoteDriverTest {
 		Assert.assertEquals(driver.getTitle(), "Java Tutorial - Google Search");
   }
 }
+
+// java -jar  selenium-server-4.14.0.jar standalone --selenium-manager true

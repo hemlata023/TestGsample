@@ -1,85 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T15:22:28 IST" name="SampleSuite" finished-at="2023-06-21T15:22:42 IST" duration-ms="14880">
+  <suite started-at="2023-12-11T10:45:28 IST" name="SampleSuite" finished-at="2023-12-11T10:45:34 IST" duration-ms="5698">
     <groups>
     </groups>
-    <test started-at="2023-06-21T15:22:28 IST" name="ModuleOneTest" finished-at="2023-06-21T15:22:42 IST" duration-ms="14880">
-      <class name="testScripts.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:28 IST" name="setup" finished-at="2023-06-21T15:22:31 IST" duration-ms="3486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:31 IST" name="validLogin" data-provider="loginData" finished-at="2023-06-21T15:22:36 IST" duration-ms="4430" status="PASS">
+    <test started-at="2023-12-11T10:45:28 IST" name="ModuleOneTest" finished-at="2023-12-11T10:45:34 IST" duration-ms="5698">
+      <class name="testScripts.SampleTwoTest">
+        <test-method signature="cypressSearchTest(java.lang.String)[pri:0, instance:testScripts.SampleTwoTest@61df66b6]" started-at="2023-12-11T10:45:28 IST" name="cypressSearchTest" finished-at="2023-12-11T10:45:34 IST" duration-ms="5647" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[testuser1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[welcome1]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:36 IST" name="teardown" finished-at="2023-06-21T15:22:36 IST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:36 IST" name="setup" finished-at="2023-06-21T15:22:37 IST" duration-ms="999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:37 IST" name="validLogin" data-provider="loginData" finished-at="2023-06-21T15:22:39 IST" duration-ms="2514" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testuser2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[welcome123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:39 IST" name="teardown" finished-at="2023-06-21T15:22:39 IST" duration-ms="77" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:39 IST" name="setup" finished-at="2023-06-21T15:22:40 IST" duration-ms="944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:40 IST" name="validLogin" data-provider="loginData" finished-at="2023-06-21T15:22:42 IST" duration-ms="2254" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tomsmith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SuperSecretPassword!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testScripts.LoginTest@76508ed1]" started-at="2023-06-21T15:22:42 IST" name="teardown" finished-at="2023-06-21T15:22:42 IST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testScripts.LoginTest -->
+        </test-method> <!-- cypressSearchTest -->
+      </class> <!-- testScripts.SampleTwoTest -->
     </test> <!-- ModuleOneTest -->
   </suite> <!-- SampleSuite -->
 </testng-results>

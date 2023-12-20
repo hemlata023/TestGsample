@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.SampleOneTest">
+      <class name="testScripts.CDPTest">
         <methods>
-          <include name="seleniumSearchTest"/>
-          <include name="teardown"/>
-          <include name="finishExtent"/>
+          <include name="captureNWTrafficTest"/>
           <include name="setup"/>
-          <include name="setupExtent"/>
         </methods>
-      </class> <!-- testScripts.SampleOneTest -->
+      </class> <!-- testScripts.CDPTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
